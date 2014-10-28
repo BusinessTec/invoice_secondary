@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data>
+
+    <template id="report_invoice_secondary">
+      <t t-call="report.html_container">
+        <t t-foreach="doc_ids" t-as="doc_id">
+          <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'invoice_secondary.report_invoice_copia')"/>
+        </t>
+      </t>
+    </template>
+  </data>
+</openerp>
+
