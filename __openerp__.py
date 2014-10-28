@@ -36,7 +36,7 @@ views folder to match final requirements (recommended use of branches to manage 
     'website': 'http://www.businesstec.net',
     'depends': ['sale', 'report'],
     'category': 'Sale',
-    'data': ['views/report_invoice_extra_org.xml',
+    'data': ['views/report_invoice_secondary.xml','views/report_invoice_copia.xml',
     'invoice_extra.xml'],
     'installable': True,
 }
