@@ -21,7 +21,7 @@
 ##############################################################################
 
 {
-    'name': 'Extra Invoice Layouts',
+    'name': 'Secondary Invoice',
     'version': '1.0',
     'sequence': 18,
     'summary': 'Additional reports to be printed for invoice view',
