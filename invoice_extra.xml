@@ -7,9 +7,10 @@
             model="account.invoice" 
             report_type="qweb-pdf"
             file="invoice_secondary.report_invoice_secondary" 
-            name="invoice_secondary.invoice_secondary" 
+            name="invoice_secondary.report_invoice_secondary" 
     attachment_use="False"
             attachment="(object.state in ('open','paid')) and ('FACTCP'+(object.number or '').replace('/','')+'.pdf')"
         />
     </data>
 </openerp>
+
