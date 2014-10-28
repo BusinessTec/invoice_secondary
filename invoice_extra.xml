@@ -2,7 +2,7 @@
 <openerp>
     <data>
      <report 
-            id="report_extra_invoice_2"
+            id="invoice_secondary"
             string="Nombre: Copia de Factura"
             model="account.invoice" 
             report_type="qweb-pdf"
